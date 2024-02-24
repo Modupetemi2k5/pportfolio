@@ -1,0 +1,33 @@
+/*.poppins-medium {font-family: "Poppins",
+sans-serif;
+font-weight: 500;
+font-style: normal;
+
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+<uniquifier>: Use a uniquifier for the class name .playfair-display-<uniquifier> {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}*/
+
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
