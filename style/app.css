@@ -8,6 +8,7 @@ font-style: normal;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
+}
 <uniquifier>: Use a uniquifier for the class name .playfair-display-<uniquifier> {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
