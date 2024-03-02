@@ -70,7 +70,101 @@ img {
     border-radius: 4px;
 }
 
-@media(max-width:576px) {
+h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.about-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.about-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about-section p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 3;
+}
+
+.my-mage {
+    padding: 20px 30px;
+}
+
+.content {
+    padding: 20px 30px;
+}
+
+.enquiry {
+    background-color: #F9F7FE;
+}
+
+.enquiry h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.enquiry p {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.about-link {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    color: black;
+    text-decoration: none;
+}
+
+.work-image {
+    margin: 30px 50px;
+}
+
+.work-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.work-section p {
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.work-section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.image-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+@media(max-width: 576px) {
     img {
         display: none;
     }
@@ -91,7 +185,32 @@ img {
     }
     .row {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column align-items: center;
     }
+    .about-link {
+        font-size: 10px;
+        padding: 5px 5px;
+        text-align: center;
+    }
+    .about-section h1 {
+        font-family: "Playfair Display", serif;
+        font-size: 40px;
+        font-weight: bold
+    }
+    .about-section p {
+        font-family: "Poppins", sans-serif;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 1.5;
+    }
+    .about-section p {
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+
+}
+
 }
