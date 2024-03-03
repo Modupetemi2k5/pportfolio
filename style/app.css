@@ -158,6 +158,10 @@ h3 {
     font-size: 24px;
 }
 
+.work-section img {
+    padding-right: 120px;
+}
+
 .image-label {
     display: flex;
     flex-direction: column;
@@ -168,6 +172,20 @@ h3 {
     display: flex;
     justify-content: center;
     color: blue;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo2 {
+    position: relative;
+    left: -55px;
 }
 
 @media(max-width: 576px) {
@@ -222,6 +240,16 @@ h3 {
         text-align: start;
     }
     .enquiry-link {
-        padding: 3px;
+        padding: 10px;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+    .logo2 {
+        width: 100px;
+    }
+    ul {
+        font-size: smaller;
     }
 }
