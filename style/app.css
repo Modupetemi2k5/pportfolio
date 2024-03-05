@@ -57,8 +57,8 @@ h2 {
 
 h3 {
     font-family: "Playfair Display", serif;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: medium;
 }
 
 p {
@@ -249,8 +249,9 @@ li {
     }
     .navbar {
         display: flex;
-        justify-content: start;
-        line-height: 0.8;
+        flex: 1;
+        justify-content: center;
+        line-height: 0.5;
     }
     .logo2 {
         width: 100px;
