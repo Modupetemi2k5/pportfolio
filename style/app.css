@@ -194,6 +194,11 @@ li {
 }
 
 @media(max-width: 576px) {
+    .hero-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     img {
         display: none;
     }
@@ -214,7 +219,8 @@ li {
     }
     .row {
         display: flex;
-        flex-direction: column align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .about-link {
         font-size: 10px;
